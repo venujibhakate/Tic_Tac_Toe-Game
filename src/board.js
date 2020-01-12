@@ -1,6 +1,7 @@
 import React from 'react';
 import  Square from './square'
 
+// Parent component and pass data to child sqaure component through props.
 class Board extends React.Component {
   renderSquare(i) {
     return <Square value={i} />;
